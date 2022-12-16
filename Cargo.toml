@@ -1,0 +1,10 @@
+[package]
+name = "top"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lower= {git = "ssh://git@github.com/StyMaar/repro_cargo_lower", rev="5914bef"}
+upper= {git = "ssh://git@github.com/StyMaar/repro_cargo_upper", rev="a810b8e"}
